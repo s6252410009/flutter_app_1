@@ -13,7 +13,7 @@ class _SecondUIState extends State<SecondUI> {
     return Scaffold(
       // backgroundColor: Colors.red,สีพื้น
       appBar: AppBar(
-        backgroundColor: Colors.pink[100],
+        backgroundColor: Colors.green[100],
         title: Text(
           'Second UI :)',
         ),
@@ -40,7 +40,7 @@ class _SecondUIState extends State<SecondUI> {
           children: [
             UserAccountsDrawerHeader(
               currentAccountPicture: CircleAvatar(
-                backgroundImage: AssetImage('assets/images/Profile.jpg'),
+                backgroundImage: AssetImage('assets/images/myprofile.jpg'),
               ),
               accountName: Text(
                 'Sahapot Noiwong',
@@ -51,14 +51,14 @@ class _SecondUIState extends State<SecondUI> {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage(
-                    'assets/images/BG.png',
+                    'assets/images/bgdraw.png',
                   ),
                   fit: BoxFit.fill,
                 ),
               ),
               otherAccountsPictures: [
                 Image.asset(
-                  'assets/images/SAU.png',
+                  'assets/images/saulogo.png',
                 ),
               ],
             ),
