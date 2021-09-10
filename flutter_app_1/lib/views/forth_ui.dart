@@ -11,9 +11,13 @@ class _ForthUIState extends State<ForthUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.yellow,
-
-      drawer: Drawer(),
-    );
+        appBar: AppBar(
+      backgroundColor: Colors.yellow,
+      title: Text(
+        'Fort UI ไอที',
+        style: TextStyle(fontFamily: 'Kanit'),
+      ),
+      centerTitle: true,
+    ));
   }
 }
